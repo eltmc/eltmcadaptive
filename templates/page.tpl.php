@@ -96,6 +96,11 @@
   <header<?php print $header_attributes; ?>>
 
     <?php if ($site_logo || $site_name || $site_slogan): ?>
+
+      <!-- Breadcrumbs -->
+      <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+
+
       <!-- start: Branding -->
       <div<?php print $branding_attributes; ?>>
 
@@ -132,9 +137,6 @@
   <?php print render($page['menu_bar']); ?>
   <?php if ($primary_navigation): print $primary_navigation; endif; ?>
   <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
-
-  <!-- Breadcrumbs -->
-  <?php if ($breadcrumb): print $breadcrumb; endif; ?>
 
   <!-- Messages and Help -->
   <?php print $messages; ?>
