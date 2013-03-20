@@ -125,6 +125,12 @@
           </hgroup><!-- /end #name-and-slogan -->
         <?php endif; ?>
 
+	<!-- Navigation elements -->
+	<?php print render($page['menu_bar']); ?>
+	<?php if ($primary_navigation): print $primary_navigation; endif; ?>
+	<?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
+
+
       </div><!-- /end #branding -->
     <?php endif; ?>
 
@@ -132,11 +138,6 @@
     <?php print render($page['header']); ?>
 
   </header>
-
-  <!-- Navigation elements -->
-  <?php print render($page['menu_bar']); ?>
-  <?php if ($primary_navigation): print $primary_navigation; endif; ?>
-  <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
 
   <!-- Messages and Help -->
   <?php print $messages; ?>
@@ -189,6 +190,7 @@
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
             <div id="content" class="region">
+            <div id="border-decoration"><div></div></div>
               <?php print $content; ?>
             </div>
           <?php endif; ?>
