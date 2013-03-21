@@ -128,7 +128,9 @@ var {
 /*
  * Wraps the sidebars the content column
  */
-#columns {}
+#columns {
+  margin-top: 30px;
+}
 
 /*
  * Main content column wrapper
@@ -425,7 +427,9 @@ ul.links li {
 /*
  * Sidebars - targets both
  */
-.sidebar {}
+.sidebar {
+  margin-top: 1.5em;
+}
 
 /*
  * First sidebar

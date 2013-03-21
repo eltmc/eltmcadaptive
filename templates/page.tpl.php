@@ -157,14 +157,7 @@
 
           <?php print render($title_prefix); // Does nothing by default in D7 core ?>
 
-          <?php if ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links)): ?>
             <header<?php print $content_header_attributes; ?>>
-
-              <?php if ($title): ?>
-                <h1 id="page-title">
-                  <?php print $title; ?>
-                </h1>
-              <?php endif; ?>
 
               <?php if ($primary_local_tasks || $secondary_local_tasks || $action_links): ?>
                 <div id="tasks">
@@ -182,10 +175,11 @@
                   <?php endif; ?>
 
                 </div>
+              <?php else: ?>
+                <ul class="tabs primary clearfix">&nbsp;</ul>
               <?php endif; ?>
 
             </header>
-          <?php endif; ?>
 
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
