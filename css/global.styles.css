@@ -1151,6 +1151,17 @@ ul.action-links li {}
   margin: 5px 0 15px 20px;
 }
 
+/* Get rid of clearfix effect on selected figures (so they can align horizonally) */
+
+.node-page figure.field-item:after {
+     display: inherit;
+}
+
+/* and make them center */
+div.map,
+.node-page .field-name-field-images .field-items {
+  text-align: center;
+}
 
 /* =============================================================================
  *   Block Styling
