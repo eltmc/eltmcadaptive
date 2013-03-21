@@ -98,8 +98,11 @@
     <?php if ($site_logo || $site_name || $site_slogan): ?>
 
       <!-- Breadcrumbs -->
+      <div id="navigation-bars" class="clearfix">
       <?php if ($breadcrumb): print $breadcrumb; endif; ?>
-
+      <?php if ($primary_navigation): print $primary_navigation; endif; ?>
+      <?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
+      </div>
 
       <!-- start: Branding -->
       <div<?php print $branding_attributes; ?>>
@@ -133,8 +136,6 @@
 
 	<!-- Navigation elements -->
 	<?php print render($page['menu_bar']); ?>
-	<?php if ($primary_navigation): print $primary_navigation; endif; ?>
-	<?php if ($secondary_navigation): print $secondary_navigation; endif; ?>
 
 
       </div><!-- /end #branding -->

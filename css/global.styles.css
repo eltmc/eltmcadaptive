@@ -126,6 +126,17 @@ var {
 #header {}
 
 /*
+ * Wraps the navigation bars and breadcrumbs
+ */
+#navigation-bars {}
+
+#navigation-bars > div {
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+
+/*
  * Wraps the sidebars the content column
  */
 #columns {
@@ -498,6 +509,11 @@ a:focus {
  *  - #secondary-menu (secondary/user menu)
  * You can target all of these with .nav or div[id$="menu-bar"]
  */
+
+#secondary-menu-bar {
+  float: right;
+}
+
 .nav {
   margin: 10px 0 0 0;
 }
@@ -714,6 +730,7 @@ ul.menu li.last {}
 
 #breadcrumb {
   margin: 10px 0;
+  float: left;
 }
 
 /* If the label is set to show in theme settings the label class is added */
