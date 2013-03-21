@@ -157,7 +157,7 @@ var {
  * Wraps the content region, avoid applying styles to this wrapper, its used mainly for position and invisible gutters and can be problematic to style
  */
 #content {
-  border: solid green 2px;
+  border: solid #6AA842 2px;
   border-radius: 15px;
   padding: 10px;
   background-color: #fff;
@@ -298,7 +298,7 @@ h1, h2, h3, h4, h5, h6, #site-name {
 }
 
 #site-name a {
-  color: green;
+  color: #6AA842;
 }
 
 #site-name a:link,
@@ -494,7 +494,7 @@ a.active {
 
 a:hover,
 a:focus {
-  color: green;
+  color: #6AA842;
 }
 
 
