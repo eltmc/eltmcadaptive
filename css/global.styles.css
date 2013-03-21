@@ -275,12 +275,13 @@ var {
   position: relative;
 }
 #border-decoration > div {
-    background-image: url("/sites/all/themes/eltmcadaptive/images/pea-blossom3.png");
+    background-image: url("/sites/all/themes/eltmcadaptive/images/pea-blossom4.png");
     height: 62px;
     position: absolute;
     right: 0;
     top: -72px;
     width: 97px;
+    z-index: -1; /* put it behind menus etc. */
 }
 /*
  * Wrapper for the site name and slogan (hgroup)
