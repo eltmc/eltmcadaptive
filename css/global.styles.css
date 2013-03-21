@@ -31,7 +31,7 @@
  */
 
 html {
-  background: #fff;
+  background: #f8f8f8;
 }
 
 
@@ -147,6 +147,7 @@ var {
   border: solid green 2px;
   border-radius: 15px;
   padding: 10px;
+  background-color: #fff;
 }
 
 /*
