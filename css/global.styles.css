@@ -492,6 +492,9 @@ a:focus {
   margin: 10px 0 0 0;
 }
 
+/* Removes big gap between main menu items and selected item */
+nav ul,
+nav ul.menu,
 .nav ul,
 .nav ul.menu {
   margin: 0;
@@ -863,7 +866,6 @@ ul.primary li a {
   border: none;
   display: block;
   float: left;
-  line-height: 1.5385em;
   margin: 0;
   padding: 0 1em;
   border-radius: 4px 4px 0 0;
