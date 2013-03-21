@@ -299,6 +299,16 @@ h1, h2, h3, h4, h5, h6, #site-name {
 #site-name a:focus {
 }
 
+/* Indent the second span of the site name to make the ampersands line up */
+#site-name span {
+  display: block;
+  white-space: nowrap;
+}
+#site-name span:nth-child(2) {
+  left: 2.4em;
+  position: relative;
+}
+
 /*
  * Site slogan (h2)
  */

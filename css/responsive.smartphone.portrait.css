@@ -11,3 +11,14 @@
 html {
   font-size: 112.5%;
 }
+
+/* Make the site name smaller and the text wrap again on smart phones */
+#site-name {
+  font-size: 100%;
+}
+#site-name span {
+  white-space: normal;
+}
+#site-name span:nth-child(2) {
+  position: static;
+}

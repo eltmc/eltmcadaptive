@@ -115,7 +115,13 @@
           <hgroup<?php print $hgroup_attributes; ?>>
 
             <?php if ($site_name): ?>
-              <h1<?php print $site_name_attributes; ?>><?php print $site_name; ?></h1>
+		  <h1<?php print $site_name_attributes; ?>>
+                    <? # php print $site_name; # This is now hardwired to allow to be split ?>
+                    <a href="/" title="Home page" class="active">
+                      <span>Edinburgh &amp; Lothians</span>
+                      <span>Twins &amp; Multiples Club</span>
+                    </a>
+                  </h1>
             <?php endif; ?>
 
             <?php if ($site_slogan): ?>
