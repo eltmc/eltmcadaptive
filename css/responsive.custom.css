@@ -39,6 +39,14 @@
     float: none;
     width: 100%;
   }
+
+  /* Don't use Pontano Sans in Android, it renders oddly.  iOS is probably
+     fine, but we can't select Android alone, so it loses it too. 
+     See http://code.google.com/p/googlefontdirectory/issues/detail?id=170
+   */
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
 }
 /*
  * Tablet sizes and up

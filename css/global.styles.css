@@ -22,6 +22,9 @@
  *   Base
  * ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Pontano+Sans);
+
 /*
  * To preserve theme settings never apply font properties to the HTML element.
  * This is critically important if you are using the Responsive JavaScript
@@ -482,7 +485,7 @@ ul.links li {
 
 a {
   text-decoration: none;
-  color: #666666;
+  color: #6AA842;
 }
 
 a:link,
@@ -495,7 +498,7 @@ a.active {
 
 a:hover,
 a:focus {
-  color: #6AA842;
+ text-decoration: underline;
 }
 
 
