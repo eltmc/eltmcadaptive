@@ -1753,8 +1753,8 @@ tr.even td.active {
 .node-event .field-type-text-with-summary,
 .node-announcement .field-type-text-with-summary,
 .node-forum .field-type-text-with-summary {
-  background: none repeat scroll 0 0 #E7E7E7;
-  border: 1px solid #CCCCCC;
+  background: none repeat scroll 0 0 #e7e7e7;
+  border: 1px solid #cccccc;
   border-radius: 10px;
   padding: 10px;
 }
