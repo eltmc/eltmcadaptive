@@ -1677,7 +1677,7 @@ td {
 
 thead tr {
   font-weight: 700;
-  background-color: #e5e5e5;
+  background-color: #e7e7e7;
 
 }
 
@@ -1734,7 +1734,7 @@ tr.even td.active {
  */
 .page-forum #content {
   padding: 10px 0;
-  background: #e5e5e5;
+  background: #e7e7e7;
 }
 
 .node-forum .comment {
@@ -1753,7 +1753,7 @@ tr.even td.active {
 .node-event .field-type-text-with-summary,
 .node-announcement .field-type-text-with-summary,
 .node-forum .field-type-text-with-summary {
-  background: none repeat scroll 0 0 #e7e7e7;
+  background: #e7e7e7;
   border: 1px solid #cccccc;
   border-radius: 10px;
   padding: 10px;
