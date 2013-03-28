@@ -191,7 +191,7 @@
           <!-- region: Main Content -->
           <?php if ($content = render($page['content'])): ?>
             <div id="content" class="region">
-            <div id="border-decoration"><div></div></div>
+            <div class="border-decoration"><div></div></div>
               <?php print $content; ?>
             </div>
           <?php endif; ?>
