@@ -168,9 +168,11 @@ var {
 
 /*
  * Footer wrapper
+ * 25% on right assumes only right sidebar present.
  */
-#footer {}
-
+#footer {
+  margin: 0 25% 0 0;
+}
 /*
  * Panels may need additional margin wrangling when in the $content region
  */
