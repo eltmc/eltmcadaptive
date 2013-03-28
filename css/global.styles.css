@@ -674,9 +674,8 @@ ul.menu ul ul {}
 
 ul.menu ul ul ul {}
 
-ul.menu li {
-  margin: 0;
-}
+ul.menu li {}
+
 
 ul.menu li.collapsed,
 ul.menu li.expanded,
@@ -1205,6 +1204,16 @@ div.map,
   margin-bottom: 20px;
 }
 
+.sidebar .region-inner {
+  padding: 0 10px;
+}
+.sidebar .block {
+  background-color: white;
+  border: 2px solid #6AA842;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 /*
  * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
  */
@@ -1346,6 +1355,10 @@ div.map,
  * "Main menu" block
  */
 #block-system-main-menu {}
+
+#block-system-main-menu .block-title {
+ display: none;
+}
 
 /*
  * "Management" block for Drupal management menu
