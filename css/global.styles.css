@@ -2003,3 +2003,7 @@ tr.error {}
   border: solid #6AA842 1px;
   border-radius: 10px;
 }
+
+.view-content table, .view-content tbody, .view-content tr, .view-content td {
+  border: none;
+}
