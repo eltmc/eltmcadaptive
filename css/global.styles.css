@@ -1378,10 +1378,46 @@ div.map,
 /*
  * "Main menu" block
  */
-#block-system-main-menu {}
+#primary-menu-bar,
+#block-system-main-menu {
+  border-radius: 10px 10px 10px 10px;
+  clear: both;
+}
 
+#primary-menu-bar {
+  width: 100%;
+  background: #e7e7e7;
+  color: #6AA842;
+}
+
+#primary-menu-bar li.first:before,
+#block-system-main-menu li:first-child:before {
+    content: none;
+}
+#primary-menu-bar li:before,
+#block-system-main-menu li:before {
+    content: "\00b7";
+}
+#primary-menu-bar .block-title,
 #block-system-main-menu .block-title {
  display: none;
+}
+#primary-menu-bar li a,
+#primary-menu-bar ul.menu li a,
+#block-system-main-menu .nav li a,
+#block-system-main-menu .nav ul.menu li a {
+  display: inline;
+}
+#primary-menu-bar li a,
+#primary-menu-bar ul.menu li a {
+  color: #6AA842;
+}
+#primary-menu-bar li a:hover,
+#primary-menu-bar ul.menu li a:hover {
+  color: white;
+  text-decoration: none;
+  background: #6AA842;
+  border-radius: 10px;
 }
 
 /*
