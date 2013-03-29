@@ -1993,3 +1993,8 @@ tr.error {}
   min-height: 260px;
   width: auto;
 }
+
+.geofieldMap {
+  border: solid #6AA842 1px;
+  border-radius: 10px;
+}
