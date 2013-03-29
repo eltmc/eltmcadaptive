@@ -1064,6 +1064,21 @@ ul.action-links li {}
   padding: 0 10px 0 0;
 }
 
+/* make the forum headers less bulky, and t8y items too */
+.field-type-taxonomy-term-reference ul,
+.field-type-taxonomy-term-reference li,
+.field-type-taxonomy-term-reference h2 {
+    display: inline;
+}
+.field-type-taxonomy-term-reference ul {
+    padding-left: 0.5em;
+}
+.field-type-taxonomy-term-reference li:first-child:before {
+    content: none;
+}
+.field-type-taxonomy-term-reference li:before {
+    content: " / ";
+}
 /*
  * Text
  */
@@ -1847,21 +1862,6 @@ tr.even td.active {
   white-space: normal;
 }
 
-/* make the forum headers less bulky */
-.field-name-taxonomy-forums ul,
-.field-name-taxonomy-forums li,
-.field-name-taxonomy-forums h2 {
-    display: inline;
-}
-.field-name-taxonomy-forums ul {
-    padding-left: 0.5em;
-}
-.field-name-taxonomy-forums li:first-child:before {
-    content: none;
-}
-.field-name-taxonomy-forums li:before {
-    content: " / ";
-}
 
 /* =============================================================================
  *   Messages
