@@ -2041,3 +2041,25 @@ tr.error {}
 .view-content table, .view-content tbody, .view-content tr, .view-content td {
   border: none;
 }
+
+/* Formatting for committee member page */
+.view-committee-members .views-row {
+  margin-bottom: 1.5em;
+  min-height: 64px;
+  padding-left: 79px;
+  position: relative;
+}
+
+.view-committee-members .aboutus-committee-member-image {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.view-committee-members .views-field-field-committee-roles {
+  float: right;
+}
+
+.view-committee-members .views-field-name {
+    text-align: right;
+}
