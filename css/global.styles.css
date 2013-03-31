@@ -1390,12 +1390,10 @@ div.map,
   color: #6AA842;
 }
 
-#primary-menu-bar li.first:before,
-#block-system-main-menu li:first-child:before {
+#primary-menu-bar li.first:before {
     content: none;
 }
-#primary-menu-bar li:before,
-#block-system-main-menu li:before {
+#primary-menu-bar li:before {
     content: "\00b7";
 }
 #primary-menu-bar .block-title,
