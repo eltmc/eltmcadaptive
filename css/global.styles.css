@@ -126,7 +126,9 @@ var {
 /*
  * Wraps all header elements - branding and .region-header
  */
-#header {}
+#header {
+  padding-top: 0.5em;
+}
 
 /*
  * Wraps the navigation bars and breadcrumbs
@@ -134,8 +136,7 @@ var {
 #navigation-bars {}
 
 #navigation-bars > div {
-    display: inline-block;
-    margin: 10px 0 0;
+    margin: 0;
 }
 
 
@@ -143,7 +144,7 @@ var {
  * Wraps the sidebars the content column
  */
 #columns {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 /*
@@ -261,7 +262,7 @@ var {
  */
 #branding {
   position: relative;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 /*
@@ -532,7 +533,7 @@ nav ul.menu,
 .nav ul,
 .nav ul.menu {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 1em;
 }
 
 .nav li,
@@ -678,7 +679,9 @@ ul.menu ul ul {}
 
 ul.menu ul ul ul {}
 
-ul.menu li {}
+ul.menu li {
+  margin: 0;
+}
 
 
 ul.menu li.collapsed,
@@ -1235,13 +1238,14 @@ div.map,
   background-color: white;
   border: 2px solid #6AA842;
   border-radius: 10px;
-  padding: 10px;
 }
 
 /*
  * Inner wrapper for most blocks, good for margin, padding and borders, block_system_main does not have it
  */
-.block-inner {}
+.block-inner {
+  padding: 10px;
+}
 
 /*
  * The first block in the region
