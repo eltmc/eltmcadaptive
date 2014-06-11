@@ -56,3 +56,10 @@
  * Desktops/laptops and up
  */
 /* @media only screen and (min-width: 1025px) {} */
+
+/* This is some styling for empty committee-role-occupants view results */
+.view-view-committee-role-occupants div.view-empty {
+  font-size: larger;
+  margin: 1em;
+  font-style: italic;
+}
