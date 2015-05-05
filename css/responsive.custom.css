@@ -63,3 +63,7 @@
   margin: 1em;
   font-style: italic;
 }
+.view-view-committee-role-occupants table.views-view-grid td {
+  vertical-align: bottom;
+}
+
